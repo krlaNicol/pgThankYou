@@ -11,26 +11,41 @@
     <div class="container">
         <header>
             <div class="logo-container">
-               <img src="assets/imagenes/logoB.png" alt="Logo Universidad" class="logo">  
+                <lfr-editable id="logoB" type="image">
+                    <img src="assets/imagenes/logoB.png" alt="Logo Universidad" class="logo">  
+                </lfr-editable>    
             </div>
         </header>
         <main>
             <div class="background_general">
+                <lfr-editable id="backgroundImage" type="image">
+                    <img src="assets/imagenes/background.jpg" alt="Fondo de la página" class="background-img">
+                </lfr-editable>
                 <div class="card">
                     <div class="circle-logo1">
                         <div class="circle-logo">
-                            <img src="assets/imagenes/logoC.png" alt="Logo Universidad">
+                            <lfr-editable id="logoc" type="image" class="editable-cantainer">
+                                <img src="assets/imagenes/logoC.png" alt="Logo Universidad" class="img">
+                            </lfr-editable>
                         </div>
                     </div>    
-                        
-                    <h1>THANK YOU!</h1>
+                    <lfr-editable id="titulo" type="text">   
+                     <h1>THANK YOU!</h1>
+                    </lfr-editable> 
                     <p class="p">
-                        ¡Gracias por inscribirte en nuestro curso/programa/evento! Nos alegra contar contigo.
+                        <lfr-editable id="mensaje" type="rich-text">
+                            ¡Gracias por inscribirte en nuestro curso/programa/evento! Nos alegra contar contigo.
+                        </lfr-editable>
                     </p>
                     <div class="icon">
-                        <img src="assets/imagenes/icon.png" alt="Icono de Registro">
+                        <lfr-editable id="icono" type="image">
+                            <img src="assets/imagenes/icon.png" alt="Icono de Registro">
+                        <lfr-editable id="icono" type="image">
                     </div>
-                    <a href="#" class="btn">¿Deseas hacer otro registro?</a>
+                    <a href="#" class="btn">
+                        <lfr-editable id="boton" type="text">
+                         ¿Deseas hacer otro registro?</a>
+                        </lfr-editable> 
                 </div>
             </div>  
         </main>

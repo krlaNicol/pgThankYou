@@ -1,0 +1,1 @@
+Este proyecto es una página de agradecimiento desarrollada con HTML, Sass y CSS.
