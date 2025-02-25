@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #F5F5F5;
+  height: 100vh;
+  margin: 0;
+}
+
+.logo-container {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: first baseline;
+  padding: 8px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  height: 40px;
+  position: relative;
+}
+
+.background_general {
+  background: url("../assets/imagenes/background.jpg") no-repeat center center;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 50px;
+  border: solid 3px;
+  border-color: #7C42A3;
+}
+.background_general::before {
+  content: "";
+  position: absolute;
+  top: 59px;
+  left: 0;
+  width: 100%;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 0;
+}
+
+.card {
+  position: relative;
+  background: #F5F5F5;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(23, 1, 35, 0.5);
+}
+
+.circle-logo {
+  background: #7C42A3;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+}
+
+h1 {
+  color: #7C42A3;
+}
+
+.btn {
+  display: inline-block;
+  background: #7C42A3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
