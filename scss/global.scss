@@ -9,12 +9,11 @@
 
 /* 🔹 Estilos generales */
 html {
-    font-size: 16px;
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Jua', sans-serif; // Aplica la tipografía
+    font-family: 'Jua', sans-serif;
     color: $text-color;
     background: $background-color;
     display: flex;
